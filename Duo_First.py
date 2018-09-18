@@ -1,3 +1,5 @@
+#data science method in OOP way
+
 class MovingAverage():
 
     def __init__(self,
@@ -51,7 +53,7 @@ class MyLinearRegression():
             X = X.reshape(-1, 1)
         return self.intercept_ + np.dot(X, self.coef_)
 
-
+#call functions in class
 class Test():
     def __init__(self, a, b):
         self.a=a

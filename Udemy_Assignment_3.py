@@ -20,7 +20,7 @@ class ConfigFile(dict):
         with open(self._file_name, 'a') as f:
             f.write("{0}={1}\n".format(key, value))
 
-dd = ConfigFile('Assignment2.txt')
+dd = ConfigFile('Assignment3.txt')
 
 dd['e'] = 5
 dd['f'] = 6
